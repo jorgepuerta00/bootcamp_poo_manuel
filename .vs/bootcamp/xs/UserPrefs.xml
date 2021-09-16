@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{E5D71C1B-88FE-48EA-B2C1-7B314E581114}|Default">
+  <MonoDevelop.Ide.ItemProperties.bootcamp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="bootcamp/Program.cs">
+    <Files>
+      <File FileName="bootcamp/Program.cs" Line="22" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="bootcamp" expanded="True">
+            <Node name="bootcamp" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
