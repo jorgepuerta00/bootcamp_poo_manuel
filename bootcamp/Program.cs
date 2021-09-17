@@ -8,11 +8,16 @@ namespace bootcamp
         {
             VehiculoTerrestre objVehiculo1 = new VehiculoTerrestre("Toyota", "Hilux", "2010", "Blanco", "CWT581");
             VehiculoTerrestre objVehiculo2 = new VehiculoTerrestre("Toyota", "Hilux", "2010", "Blanco", "CWT582");
-            VehiculoVolador objVolaodr = new VehiculoVolador("")
+            VehiculoVolador objVolador1 = new VehiculoVolador("Jumbo","Dos mil","Blanco","Cien");
+            VehiculoVolador objVolador2= new VehiculoVolaodor("Avioneta","Noventa","Gris","Cincuenta");
 
             objVehiculo1.Marca = "Ford";
             objVehiculo1.Linea = "Edge";
             objVehiculo1.Color = "Azul";
+            objVolador1.Tipo="Coloso";
+            ObjVolador1.Modelo="Dos mil";
+            ObjVolador1.Color="Rojo";
+            ObjVoaldor1.NumeroPasajeros="CIENTO CINCUENTA";
 
             Persona objPersona1 = new Persona("1234", "Manuel", "Hurtado");
             Persona objPersona2 = new Persona("1234", "Jorge", "Puerta");
