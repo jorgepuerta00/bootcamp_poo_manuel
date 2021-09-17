@@ -5,7 +5,7 @@ namespace bootcamp
     {
         public Persona Persona;
         public VehiculoTerrestre Vehiculo;
-        public VehiculoVoloador Volador;
+        public VehiculoVolador Volador;
 
         public VehiculosPersona(Persona Persona, VehiculoTerrestre Vehiculo, VehiculoVolador Volador)
         {
