@@ -8,6 +8,7 @@ namespace bootcamp
         {
             VehiculoTerrestre objVehiculo1 = new VehiculoTerrestre("Toyota", "Hilux", "2010", "Blanco", "CWT581");
             VehiculoTerrestre objVehiculo2 = new VehiculoTerrestre("Toyota", "Hilux", "2010", "Blanco", "CWT582");
+            VehiculoVolador objVolaodr = new VehiculoVolador("")
 
             objVehiculo1.Marca = "Ford";
             objVehiculo1.Linea = "Edge";
