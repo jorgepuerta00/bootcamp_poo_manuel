@@ -5,11 +5,13 @@ namespace bootcamp
     {
         public Persona Persona;
         public VehiculoTerrestre Vehiculo;
+        public VehiculoVoloador Volador;
 
-        public VehiculosPersona(Persona Persona, VehiculoTerrestre Vehiculo)
+        public VehiculosPersona(Persona Persona, VehiculoTerrestre Vehiculo, VehiculoVolador Volador)
         {
             this.Persona = Persona;
             this.Vehiculo = Vehiculo;
+            this.VehiculoVolador= Volador;
         }
 
         public override string ToString()
@@ -17,7 +19,7 @@ namespace bootcamp
             //string cadena = "Persona [" + Persona.Nombre + "] \n" + "vehiculo [" + Vehiculo.Marca +"]";
             //return cadena;
 
-            return Persona.ToString() + "\n" + Vehiculo.ToString();
+            return Persona.ToString() + "\n" + Vehiculo.ToString() + VehiculoVoaldor.Tostring();
         }
     }
 }
