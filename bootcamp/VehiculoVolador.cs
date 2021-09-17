@@ -18,11 +18,12 @@ namespace bootcamp
             
         }
 
-        public VehiculoTerrestre(string Marca, string Linea, string Modelo)
+         public VehiculoTerrestre(string Tipo, string Modelo, string NumeroPasajeros)
         {
-            this.Marca = Marca;
-            this.Linea = Linea;
+            this.Tipo = Tipo;
             this.Modelo = Modelo;
+            this.NumoeroPasajeros= NumeroPasajeros;
+            
         }
 
         public VehiculoTerrestre()
@@ -32,22 +33,22 @@ namespace bootcamp
 
         public void Arrancar()
         {
-            Console.WriteLine("Vehiculo terrestre [" + Marca + ", Linea :" + Linea + "] Arrancó");
+            Console.WriteLine("Vehiculo Volador [" + Tipo + ", Modelo :" + Modelo + "] Arrancó");
         }
 
         public void Encender()
         {
-            Console.WriteLine("Vehiculo terrestre [" + Marca + "] Encendió");
+            Console.WriteLine("Vehiculo terrestre [" + Tipo + "] Encendió");
         }
 
         public void Detener()
         {
-            Console.WriteLine("Vehiculo terrestre [" + Marca + "] se detuvo");
+            Console.WriteLine("Vehiculo terrestre [" + Tipo+ "] se detuvo");
         }
 
         public override string ToString()
         {
-            return "Vehiculo terrestre [ Marca: " + Marca + ", Linea: " + Linea + ", Color: " + Color + " ]";
+            return "Vehiculo Volador [ Tipo: " + Tipo + ", Modelo: " + Modelo + ", Color: " + Color + " ]"; //porque se le coloca overide?// //si yo llamo cualquier de estos metodos también me muestra?//
         }
     }
 }
