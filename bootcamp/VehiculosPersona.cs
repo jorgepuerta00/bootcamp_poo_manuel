@@ -19,7 +19,7 @@ namespace bootcamp
             //string cadena = "Persona [" + Persona.Nombre + "] \n" + "vehiculo [" + Vehiculo.Marca +"]";
             //return cadena;
 
-            return Persona.ToString() + "\n" + Vehiculo.ToString() + VehiculoVoaldor.Tostring();
+            return Persona.ToString() + "\n" + Vehiculo.ToString() + VehiculoVolador.Tostring();
         }
     }
 }
