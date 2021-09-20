@@ -6,28 +6,34 @@ namespace bootcamp
     {
         static void Main(string[] args)
         {
-            VehiculoTerrestre objVehiculo1 = new VehiculoTerrestre("Toyota", "Hilux", "2010", "Blanco", "CWT581");
-            VehiculoTerrestre objVehiculo2 = new VehiculoTerrestre("Toyota", "Hilux", "2010", "Blanco", "CWT582");
-            VehiculoVolador objVolador1 = new VehiculoVolador("Jumbo","Dos mil","Blanco","Cien");
-            VehiculoVolador objVolador2= new VehiculoVolaodor("Avioneta","Noventa","Gris","Cincuenta");
-
-            objVehiculo1.Marca = "Ford";
-            objVehiculo1.Linea = "Edge";
-            objVehiculo1.Color = "Azul";
-            objVolador1.Tipo="Coloso";
-            ObjVolador1.Modelo="Dos mil";
-            ObjVolador1.Color="Rojo";
-            ObjVoaldor1.NumeroPasajeros="CIENTO CINCUENTA";
-
             Persona objPersona1 = new Persona("1234", "Manuel", "Hurtado");
             Persona objPersona2 = new Persona("1234", "Jorge", "Puerta");
 
-            VehiculosPersona objVehiculosPersona1 = new VehiculosPersona(objPersona1, objVehiculo1);
-            VehiculosPersona objVehiculosPersona2 = new VehiculosPersona(objPersona2, objVehiculo2);
+            VehiculoTerrestre objVehiculo1 = new VehiculoTerrestre("Toyota", "Hilux", "2010", "Blanco", "CWT581", "Automovil", "5");
+            VehiculoTerrestre objVehiculo2 = new VehiculoTerrestre("Toyota", "Hilux", "2010", "Blanco", "CWT582", "Automovil", "5");
+
+            VehiculoVolador objVolador1 = new VehiculoVolador("Jumbo", "Jumbo", "2020", "Azul", "CWT58100", "Avión", "100");
+            VehiculoVolador objVolador2= new VehiculoVolador("Avioneta", "Avioneta", "2020", "Rojo", "CWT58111", "Avioneta", "50");
+
+            VehiculosPersona objVehiculosPersona1 = new VehiculosPersona(objPersona1, objVehiculo1, objVolador1);
+            VehiculosPersona objVehiculosPersona2 = new VehiculosPersona(objPersona2, objVehiculo2, objVolador2);
 
             Console.WriteLine(objVehiculosPersona1);
             Console.WriteLine();
             Console.WriteLine(objVehiculosPersona2);
+
+            Console.WriteLine();
+
+            objVehiculosPersona1.Vehiculo.Encender();
+            objVehiculosPersona1.Vehiculo.Arrancar();
+            objVehiculosPersona1.Vehiculo.Detener();
+
+            Console.WriteLine();
+
+            objVehiculosPersona1.Volador.Encender();
+            objVehiculosPersona1.Volador.Arrancar();
+            objVehiculosPersona1.Volador.Volar();
+            objVehiculosPersona1.Volador.Detener();
 
         }
     }

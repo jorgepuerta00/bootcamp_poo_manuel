@@ -1,15 +1,19 @@
 ﻿<Properties StartupConfiguration="{E5D71C1B-88FE-48EA-B2C1-7B314E581114}|Default">
   <MonoDevelop.Ide.ItemProperties.bootcamp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="bootcamp/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="bootcamp/Vehiculo.cs">
     <Files>
-      <File FileName="bootcamp/Program.cs" Line="22" Column="38" />
+      <File FileName="bootcamp/Program.cs" Line="27" Column="48" />
+      <File FileName="bootcamp/VehiculosPersona.cs" Line="7" Column="33" />
+      <File FileName="bootcamp/Persona.cs" Line="20" Column="6" />
+      <File FileName="bootcamp/VehiculoTerrestre.cs" Line="6" Column="19" />
+      <File FileName="bootcamp/Vehiculo.cs" Line="13" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="bootcamp" expanded="True">
             <Node name="bootcamp" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Vehiculo.cs" selected="True" />
             </Node>
           </Node>
         </State>

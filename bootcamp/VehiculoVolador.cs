@@ -2,54 +2,22 @@ using System;
 
 namespace bootcamp
 {
-    public class VehiculoVolador
+    public class VehiculoVolador : Vehiculo
     {
-        public string Tipo { get; set; }
-        public string Modelo { get; set; }
-        public string Color { get; set; }
-        public String NumeroPasajeros { get; set; }
-
-        public VehiculoTerrestre(string Tipo, string Modelo, string Color, string NumeroPasajeros)
-        {
-            this.Tipo = Tipo;
-            this.Modelo = Modelo;
-            this.Color = Color;
-            this.NumoeroPasajeros= NumeroPasajeros;
-            
-        }
-
-         public VehiculoTerrestre(string Tipo, string Modelo, string NumeroPasajeros)
-        {
-            this.Tipo = Tipo;
-            this.Modelo = Modelo;
-            this.NumoeroPasajeros= NumeroPasajeros;
-            
-        }
-
-        public VehiculoTerrestre()
+        public VehiculoVolador(string Marca, string Linea, string Modelo, string Color, string Placa, string Tipo, string NumeroPasajeros)
+            : base(Marca, Linea, Modelo, Color, Placa, Tipo, NumeroPasajeros)
         {
 
         }
 
-        public void Arrancar()
+        public void Volar()
         {
-            Console.WriteLine("Vehiculo Volador [" + Tipo + ", Modelo :" + Modelo + "] Arrancó");
-        }
-
-        public void Encender()
-        {
-            Console.WriteLine("Vehiculo terrestre [" + Tipo + "] Encendió");
-        }
-
-        public void Detener()
-        {
-            Console.WriteLine("Vehiculo terrestre [" + Tipo+ "] se detuvo");
+            Console.WriteLine("Vehiculo Volador [" + Tipo + "] esta volando.");
         }
 
         public override string ToString()
         {
-            return "Vehiculo Volador [ Tipo: " + Tipo + ", Modelo: " + Modelo + ", Color: " + Color + " ]"; //porque se le coloca overide?// //si yo llamo cualquier de estos metodos también me muestra?//
+            return "Vehiculo volador [ Marca: " + Marca + ", Linea: " + Linea + ", Color: " + Color + ", Tipo: " + Tipo + ", Pasajeros: " + NumeroPasajeros + " ]";
         }
     }
 }
-© 2021 GitHub, Inc.

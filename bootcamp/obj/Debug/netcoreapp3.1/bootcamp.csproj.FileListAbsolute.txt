@@ -22,3 +22,4 @@
 /Users/jorgepuerta/Projects/bootcamp_poo_manuel/bootcamp/obj/Debug/netcoreapp3.1/bootcamp.dll
 /Users/jorgepuerta/Projects/bootcamp_poo_manuel/bootcamp/obj/Debug/netcoreapp3.1/bootcamp.pdb
 /Users/jorgepuerta/Projects/bootcamp_poo_manuel/bootcamp/obj/Debug/netcoreapp3.1/bootcamp.genruntimeconfig.cache
+/Users/jorgepuerta/Projects/bootcamp_poo_manuel/bootcamp/obj/Debug/netcoreapp3.1/bootcamp.GeneratedMSBuildEditorConfig.editorconfig

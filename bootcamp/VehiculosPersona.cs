@@ -11,15 +11,12 @@ namespace bootcamp
         {
             this.Persona = Persona;
             this.Vehiculo = Vehiculo;
-            this.VehiculoVolador= Volador;
+            this.Volador = Volador;
         }
 
         public override string ToString()
         {
-            //string cadena = "Persona [" + Persona.Nombre + "] \n" + "vehiculo [" + Vehiculo.Marca +"]";
-            //return cadena;
-
-            return Persona.ToString() + "\n" + Vehiculo.ToString() + VehiculoVolador.Tostring();
+            return Persona.ToString() + "\n" + Vehiculo.ToString() + "\n" + Volador.ToString();
         }
     }
 }
