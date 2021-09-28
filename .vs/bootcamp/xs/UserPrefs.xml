@@ -3,9 +3,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="bootcamp/Vehiculo.cs">
     <Files>
       <File FileName="bootcamp/Program.cs" Line="27" Column="48" />
-      <File FileName="bootcamp/VehiculosPersona.cs" Line="7" Column="33" />
-      <File FileName="bootcamp/Persona.cs" Line="20" Column="6" />
-      <File FileName="bootcamp/VehiculoTerrestre.cs" Line="6" Column="19" />
+      <File FileName="bootcamp/VehiculosPersona.cs" />
+      <File FileName="bootcamp/Persona.cs" />
+      <File FileName="bootcamp/VehiculoTerrestre.cs" />
       <File FileName="bootcamp/Vehiculo.cs" Line="13" Column="52" />
     </Files>
     <Pads>
